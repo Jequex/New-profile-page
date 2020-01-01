@@ -1,9 +1,132 @@
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-wrap: nowrap;
+  justify-content: space-between
+}
+
+.down{
+  background: white;
+  width: 100px
+}
+
+.name-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  margin: 30px;
+  font-variant-caps: all-petite-caps
+}
+
+.name-box button{
+  font-size: 15px;
+  background-color: transparent;
+  color: #5006fc;
+  padding: 1%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-image: url(./images/big.jpg);
+}
+
+.icons{
+  margin: 5px;
+}
+
+.leftie{
+padding: 2%;
+padding-top: 1%;
+width: 16%;
+background-color: #55595ee1;
+color: white;
+text-align: center;
+}
+
+.rightie{
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  padding: 1%;
+  margin: 0%;
+  border: 0%;
+  overflow: scroll;
+  width: 80%;
+  text-align: justify;
+}
+
+.foot{
+  margin-top: 20px;
+}
+
+.footer{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 80%;
+}
+.link{
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+.Name{
+  font-family: cursive;
+  font-variant-caps: unset;
+  font-size: 110%;
+  border: 0%;
+  padding: 0%;
+  color: rgb(212, 248, 171);
+  margin-bottom: 6px;
+}
+
+.Title{
+  border: 0%;
+  padding: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant-caps: all-small-caps;
+  font-size: 100%;
+  color: rgb(220, 221, 141);
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.links{
+  border: 0%;
+  padding: 0%;
+  margin: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant-caps: all-small-caps;
+  font-size: 130%
+}
+
+.author-img {
+  border: 0%;
+  padding: 0%;
+  width: 150px;
+  height: 150px;
+  margin-top: 0%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; 
+  background-image: url(./images/about.png);
+}
+
+.author-img1 {
+  border: 2px solid white;
+  padding: 0%;
+  margin: 0%;
+  width: 450px;
+  height: 600px;
+  background-image: url(./images/Image.png);
+  background-repeat: no-repeat;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,9 +137,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,6 +149,198 @@
   color: #61dafb;
 }
 
+.about-head{
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.about-heading{
+  font-size: 18px;
+  margin-bottom: 50x;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+}
+
+.services1 {
+  margin-bottom: 30px;
+  padding: 1.5em;
+  background-color: rgb(243, 250, 224);
+}
+
+.color-1{
+  border-bottom: 2px solid #f02ca5;
+  color: #f02ca5; 
+}
+
+.color-2{
+  border-bottom: 2px solid #402cf0;
+  color: #402cf0; 
+}
+
+.color-3{
+  border-bottom: 2px solid #04e72a;
+  color: #04e72a; 
+}
+
+.color-4{
+  border-bottom: 2px solid #f0632c;
+  color: #f0632c; 
+}
+
+.color-5{
+  border-bottom: 2px solid #2cb8f0;
+  color: #2cb8f0; 
+}
+
+.color-6{
+  border-bottom: 2px solid #812b08;
+  color: #812b08; 
+}
+.color-7{
+  border-bottom: 2px solid #812b08;
+  color: #812b08; 
+}
+.color-8{
+  border-bottom: 2px solid #812b08;
+  color: #812b08; 
+}
+
+.icon-heart{
+  color: red;
+  font-size: 150%;
+  margin: 2px;
+}
+
+.lnr-smile{
+  color: rgb(231, 152, 5);
+  font-size: 120%;
+  margin: 2px;
+}
+
+.lnr-thumbs-up{
+  color: rgb(20, 5, 231);
+  font-size: 120%;
+  margin: 2px;
+}
+
+.about-desc{
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.boutbout{
+  padding-top: 20px;
+}
+
+.about-last{
+  background-color: rgb(193, 209, 151);
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 8px;
+}
+
+.about-last h2{
+  font-family: cursive;
+  font-size: 150%;
+}
+
+.about-last h2 span{
+  color: red;
+}
+
+.about-last a{
+  background-color: rgb(9, 6, 184);
+  padding: 9px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.lets-see{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.services21{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(253, 238, 238);
+  padding: 20px
+}
+.services22{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(239, 238, 253);
+  padding: 20px
+}
+.services23{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(233, 250, 235);
+  padding: 20px
+}
+.services24{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(253, 246, 238);
+  padding: 20px
+}
+.services25{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(238, 252, 253);
+  padding: 20px
+}
+.services26{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(247, 228, 228);
+  padding: 20px
+}
+
+.desc h3{
+  font-variant-caps: small-caps;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.desc p{
+  font-weight: 100;
+  color: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +349,4 @@
     transform: rotate(360deg);
   }
 }
+
