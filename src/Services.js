@@ -3,7 +3,7 @@ import React, { Component } from 'react';
   class Services extends Component{
     render(){
         return(
-            <div>
+            <div className="def">
                 <div>
                     <div>
                         <span  className="about-head">What I do?</span>

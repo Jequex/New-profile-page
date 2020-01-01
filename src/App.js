@@ -27,6 +27,7 @@ class App extends React.Component {
     this.work = this.work.bind(this)
     this.blog = this.blog.bind(this)
     this.contact = this.contact.bind(this)
+    
   }
 
   home(){
@@ -74,6 +75,8 @@ class App extends React.Component {
     this.setState({toload})
   }
 
+  
+
   render() {
     return (
       <div className="App">
@@ -105,7 +108,9 @@ class App extends React.Component {
         </div>
       </div>
     )
+
   }
   }
+
 
 export default App;

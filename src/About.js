@@ -3,7 +3,7 @@ import React, { Component } from 'react';
  class About extends Component{
     render(){
         return(
-            <div>
+            <div className="def">
                 <div>
                     <div>
                         <div className="about-desc">
@@ -48,7 +48,7 @@ import React, { Component } from 'react';
                         <div>
                             <div  className="services1 color-4">
                                 <span  className="icon2"><i  className="icon-phone3"></i></span>
-                                <h3 className="about-head">Mobile Applications</h3>
+                                <h3 className="about-head">Mobile Apps</h3>
                             </div>
                         </div>
                     </div>

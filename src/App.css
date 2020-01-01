@@ -5,9 +5,25 @@
   justify-content: space-between
 }
 
-.down{
-  background: white;
-  width: 100px
+.skillz{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-set{
+  width: 45%;
+}
+
+.skill-set h3{
+  font-family:  monospace;
+  font-size: 80%
+}
+
+.skillz2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .name-box{
@@ -17,13 +33,16 @@
   justify-content: center;
   text-align: right;
   margin: 30px;
-  font-variant-caps: all-petite-caps
+  font-variant-caps: all-petite-caps;
+  font-weight: 800;
+  font-size: 150%
 }
 
 .name-box button{
   font-size: 15px;
   background-color: transparent;
-  color: #5006fc;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #d7fc06;
   padding: 1%;
 }
 
@@ -50,16 +69,19 @@ text-align: center;
 .rightie{
   background-color: white;
   font-size: calc(10px + 2vmin);
-  padding: 1%;
   margin: 0%;
   border: 0%;
   overflow: scroll;
-  width: 80%;
+  width: 81%;
   text-align: justify;
 }
 
 .foot{
   margin-top: 20px;
+}
+
+.def{
+  padding: 3%;
 }
 
 .footer{
@@ -115,13 +137,17 @@ text-align: center;
   background-image: url(./images/about.png);
 }
 
-.author-img1 {
+.progress{
+  border-bottom: solid rgb(206, 206, 250);
+}
+
+#author-img1 {
   border: 2px solid white;
   padding: 0%;
   margin: 0%;
   width: 450px;
   height: 600px;
-  background-image: url(./images/Image.png);
+  background-image: url(./images/Image2.png);
   background-repeat: no-repeat;
 }
 
@@ -134,19 +160,6 @@ text-align: center;
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .about-head{
@@ -172,7 +185,7 @@ text-align: center;
 .services1 {
   margin-bottom: 30px;
   padding: 1.5em;
-  background-color: rgb(243, 250, 224);
+  background-color: rgb(253, 228, 228);
 }
 
 .color-1{
@@ -205,12 +218,12 @@ text-align: center;
   color: #812b08; 
 }
 .color-7{
-  border-bottom: 2px solid #812b08;
-  color: #812b08; 
+  border-bottom: 2px solid #f84803;
+  color: #f84803; 
 }
 .color-8{
-  border-bottom: 2px solid #812b08;
-  color: #812b08; 
+  border-bottom: 2px solid #07060f;
+  color: #07060f; 
 }
 
 .icon-heart{
@@ -242,7 +255,7 @@ text-align: center;
 }
 
 .about-last{
-  background-color: rgb(193, 209, 151);
+  background-color: rgb(252, 229, 154);
   padding: 20px;
   padding-top: 0px;
   border-radius: 8px;
