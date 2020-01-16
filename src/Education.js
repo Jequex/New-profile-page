@@ -34,38 +34,36 @@ class Education extends Component{
 					</div>
 				</div>
 
-				<button className="accordion">Master Degree Graphic Design<span className="right"><i className="icon-plus"></i></span></button >
+				<button className="accordion">Master Degree in Software Development (UI/UX)</button >
 				<div className="panel-body">
-					<div className="col-md-6">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-					</div>
-					<div className="col-md-6">
-						<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-					</div>
+					<p>Masters in Software Development at <strong>Decagon Institute, Lekki, Lagos State
+						</strong>, from <strong>2020-2020</strong>.</p>
 				</div>
 
-				<button className="accordion">Bachelor Degree of Computer Networking<span className="right"><i className="icon-plus"></i></span></button >
+				<button className="accordion">Diploma in graphics design</button >
 				<div className="panel-body">
-					<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						<ul>
-							<li>Separated they live in Bookmarksgrove right</li>
-							<li>Separated they live in Bookmarksgrove right</li>
-						</ul>
+					<p>Use of Corel Draw and Photoshop at <strong>IT IS WELL GRAPHICS COMPANY, Onitsha,
+						 Anambra State</strong>, from <strong>2017-2018</strong>.</p>
 				</div>
 				
-				<button className="accordion">Diploma in Information Technology<span className="right"><i className="icon-plus"></i></span></button >
+				<button className="accordion">Diploma in Computer Networking</button >
 				<div className="panel-body">
-					<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+					<p>Cisco Certified Network Associate (small and medium enterprises) at <strong>
+						AFRIHUB, Nnamdi Azikiwe University, Awka, Anambra State</strong>, 
+						from <strong>2003-2003</strong>.</p>	
 				</div>
 
-				<button className="accordion">BSc in Elecronics And Computer Engineering<span className="right"><i className="icon-plus"></i></span></button >
+				<button className="accordion">BSc in Elecronics And Computer Engineering</button >
 				<div className="panel-body">
-					<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+					<p>Bachelor of Engineering from Department of <strong>Electronics and Computer 
+						Engineering, </strong>at <strong>Nnamdi Azikiwe University, Awka, Anambra State
+							</strong>, from <strong>2010-2016</strong>.</p>	
 				</div>
 
-				<button className="accordion">High School Secondary Education<span className="right"><i className="icon-plus"></i></span></button >
+				<button className="accordion">High School or Secondary Education</button >
 				<div className="panel-body">
-					<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+					<p>West African Examinations Council<strong> from 2003-2009</strong>, 
+					at<strong> Dennis Memorial Grammar School, Onitsha, Anambra State</strong>.</p>	
 				</div>
 			</div>
 		)
