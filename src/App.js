@@ -10,7 +10,6 @@ import Services from './Services';
 import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
-import Work from './Work';
 import Contact from './Contact';
 
 class App extends React.Component {
@@ -23,7 +22,6 @@ class App extends React.Component {
     this.skills = this.skills.bind(this)
     this.education = this.education.bind(this)
     this.experience = this.experience.bind(this)
-    this.work = this.work.bind(this)
     this.contact = this.contact.bind(this)
     
   }
@@ -34,7 +32,7 @@ class App extends React.Component {
   }
 
   about(){
-    let toload = <About />;
+    let toload = <About click={()=>this.contact()}/>;
     this.setState({toload})
   }
 
@@ -58,10 +56,6 @@ class App extends React.Component {
     this.setState({toload})
   }
 
-  work(){
-    let toload = <Work />;
-    this.setState({toload})
-  }
   contact(){
     let toload = <Contact />;
     this.setState({toload})
@@ -77,12 +71,11 @@ class App extends React.Component {
           <div className="Name"><strong>Onyejekwe Chukwunonso John</strong></div>
           <div className="Title">UI/UX, React and React-Native, PHP, Python and Node.Js developer</div>
           <div onClick={this.home} className="links"><span><i  className="icon-home"></i></span><a href="#" className="link"><strong>   Home</strong></a></div>
-          <div onClick={this.about} className="links"><a href="#" className="link">   About</a></div>
+          <div onClick={this.about} className="links"><a href="#" className="link"> About</a></div>
           <div onClick={this.services} className="links"><a href="#" className="link">Services</a></div>
           <div onClick={this.skills} className="links"><a href="#" className="link">Skills</a></div>
           <div onClick={this.education} className="links"><a href="#" className="link">Education</a></div>
           <div onClick={this.experience} className="links"><a href="#" className="link">Experience</a></div>
-          <div onClick={this.work} className="links"><a href="#" className="link">Work</a></div>
           <div onClick={this.contact} className="links"><a href="#" className="link">Contact</a></div>
           <div className="foot">
             <div className="footer">&copy; Copyright</div>

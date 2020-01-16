@@ -77,7 +77,7 @@ text-align: center;
 }
 
 .foot{
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .def{
@@ -280,7 +280,7 @@ text-align: center;
   color: red;
 }
 
-.about-last a{
+.about-last button{
   background-color: rgb(9, 6, 184);
   padding: 9px;
   text-decoration: none;
@@ -373,3 +373,29 @@ text-align: center;
   }
 }
 
+.accordion{
+  background-color: rgb(236, 235, 235);
+  color: #070707;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  /* outline: none; */
+  transition: 0.4s;
+}
+
+.right{
+  float: right;
+}
+
+.active, .accordion:hover{
+  background-color: #402cf0;
+}
+
+.panel-body{
+  padding: 0 18px;
+  background-color: rgb(248, 160, 160);
+  display: none;
+  /* overflow: hidden; */
+}
