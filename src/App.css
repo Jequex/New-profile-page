@@ -88,10 +88,20 @@ text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 80%;
 }
+
 .link{
   color: rgb(253, 253, 253);
   text-decoration: none;
 }
+
+.icons:hover{
+  color: #938add;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
 .Name{
   font-family: cursive;
   font-variant-caps: unset;

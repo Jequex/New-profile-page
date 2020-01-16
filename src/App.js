@@ -11,7 +11,6 @@ import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
 import Work from './Work';
-import Blog from './Blog';
 import Contact from './Contact';
 
 class App extends React.Component {
@@ -23,9 +22,8 @@ class App extends React.Component {
     this.services = this.services.bind(this)
     this.skills = this.skills.bind(this)
     this.education = this.education.bind(this)
-    this.experience = this.education.bind(this)
+    this.experience = this.experience.bind(this)
     this.work = this.work.bind(this)
-    this.blog = this.blog.bind(this)
     this.contact = this.contact.bind(this)
     
   }
@@ -64,12 +62,6 @@ class App extends React.Component {
     let toload = <Work />;
     this.setState({toload})
   }
-
-  blog(){
-    let toload = <Blog />;
-    this.setState({toload})
-  }
-
   contact(){
     let toload = <Contact />;
     this.setState({toload})
@@ -91,7 +83,6 @@ class App extends React.Component {
           <div onClick={this.education} className="links"><a href="#" className="link">Education</a></div>
           <div onClick={this.experience} className="links"><a href="#" className="link">Experience</a></div>
           <div onClick={this.work} className="links"><a href="#" className="link">Work</a></div>
-          <div onClick={this.blog} className="links"><a href="#" className="link">Blog</a></div>
           <div onClick={this.contact} className="links"><a href="#" className="link">Contact</a></div>
           <div className="foot">
             <div className="footer">&copy; Copyright</div>

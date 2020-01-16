@@ -27,7 +27,7 @@ import React, { Component } from 'react';
                             </span>
                             <div  className="desc">
                                 <h3>Software</h3>
-                                <p>&lt;eat&gt;<br/>&lt;code&gt;<br/>&lt;sleep&gt;<br/>&lt;repeat&gt;</p>
+                                <p>&lt;eat /&gt;<br/>&lt;code /&gt;<br/>&lt;sleep /&gt;<br/>&lt;repeat /&gt;</p>
                             </div>
                         </div>
                         <div  className="services23 color-3">
