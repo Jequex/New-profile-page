@@ -71,12 +71,12 @@ class App extends React.Component {
           <div className="Name"><strong>Onyejekwe Chukwunonso John</strong></div>
           <div className="Title">UI/UX, React and React-Native, PHP, Python and Node.Js developer</div>
           <div onClick={this.home} className="links"><h4 className="link"><span><i  className="icon-home"></i></span><strong>   Home</strong></h4></div>
-          <div onClick={this.about} className="links"><h4 className="link"> About</h4></div>
-          <div onClick={this.services} className="links"><h4 className="link">Services</h4></div>
-          <div onClick={this.skills} className="links"><h4 className="link">Skills</h4></div>
-          <div onClick={this.education} className="links"><h4 className="link">Education</h4></div>
-          <div onClick={this.experience} className="links"><h4 className="link">Experience</h4></div>
-          <div onClick={this.contact} className="links"><h4 className="link">Contact</h4></div>
+          <div onClick={this.about} className="links"><h5 className="link"> About</h5></div>
+          <div onClick={this.services} className="links"><h5 className="link">Services</h5></div>
+          <div onClick={this.skills} className="links"><h5 className="link">Skills</h5></div>
+          <div onClick={this.education} className="links"><h5 className="link">Education</h5></div>
+          <div onClick={this.experience} className="links"><h5 className="link">Experience</h5></div>
+          <div onClick={this.contact} className="links"><h5 className="link">Contact</h5></div>
           <div className="foot">
             <div className="footer">&copy; Copyright</div>
             <div className="footer"> &copy; {(new Date().getFullYear())}; </div>
